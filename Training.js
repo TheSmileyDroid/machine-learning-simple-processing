@@ -12,6 +12,14 @@ class Point{
             this.label = -1
         }
     }
+    changeLabel(){
+        if (this.x > this.y){
+            this.label = 1
+        }
+        else {
+            this.label = -1
+        }
+    }
 
     draw(){
         stroke(0)
